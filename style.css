@@ -1,0 +1,127 @@
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* General style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* Nav style */
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+
+nav a {
+  color: #ababab;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.home {
+  font-size: 40px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  margin-left: 5rem;
+}
+
+.section {
+  display: flex;
+  margin-left: auto;
+  margin-right: 5rem;
+  gap: 4rem;
+}
+
+/* Header style */
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+header img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1;
+}
+
+.overlay-text {
+  position: relative;
+  color: white;
+  margin: auto 20%;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  z-index: 2;
+}
+
+.overlay-text h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.overlay-text p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.overlay-text a {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+main {
+}
+
+/*
+.information-section {
+}
+
+.information-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  height: 100%;
+  width: 100%;
+}
+
+.information-card-image {
+}
+
+.information-card-text-section {
+} */
