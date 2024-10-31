@@ -3,20 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Planets Gruppeprosjekt</title>
   </head>
 
   <body>
     <nav>
       <a class="home" href="">MySite</a>
-      <div class="section">
-        <a href="">Section 1</a>
-        <a href="">Section 2</a>
-        <a href="">Section 3</a>
+      <div class="nav-section">
+        <a href="#header">Neptune</a>
+        <a href="#facts">Facts</a>
+        <a href="#Images">Images</a>
       </div>
     </nav>
-    <header>
+    <header id="header">
       <img src="assets/header-neptune.webp" alt="Neptune background" />
       <div class="overlay"></div>
       <div class="overlay-text">
@@ -37,46 +41,99 @@
           but mesmerizing, and its largest moon, Triton, offer glimpses into the
           fascinating outer reaches of our cosmic neighborhood.
         </p>
-        <a href="">Read more</a>
+        <a href="#facts">Read more</a>
       </div>
     </header>
-    <section class="grid">
-      <div class="grid-item">
-        <img src="assets/PIA00046~orig.jpg" alt="Image1" />
+
+    <main>
+      <div class="spacing"></div>
+
+      <section class="information-card" id="facts">
+        <div class="information-box">
+          <div class="information-card-text-section">
+            <div class="information-section">
+              <h2>Some facts about Neptune</h2>
+
+              <h3>Overview</h3>
+              <p>
+                Neptune is the eighth and farthest planet from the Sun in our
+                Solar System. Known as an "ice giant," it's named after the
+                Roman god of the sea, fitting for a planet that’s a stunning,
+                deep blue. Discovered in 1846, Neptune was the first planet
+                found through mathematical prediction rather than direct
+                observation due to its gravitational influence on nearby Uranus.
+              </p>
+
+              <h3>Key Facts</h3>
+              <p>
+                Distance from the Sun: About 4.5 billion kilometers (2.8 billion
+                miles)
+              </p>
+              <p>
+                Orbital Period (Year Length): 165 Earth years Diameter:
+                Approximately 49,244 kilometers (30,598 miles) Day Length:
+                Roughly 16 hours Moons: 14 known moons, with Triton being the
+                largest and most geologically active
+              </p>
+              <br />
+              <a href="#Images" class="readmore">Click to see images</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="spacing"></div>
+
+      <section class="image-gallery" id="Images">
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="assets/PIA00046~orig.jpg" alt="Image1" />
+          </div>
+          <div class="grid-item">
+            <img src="assets/PIA02209~orig.jpg" alt="Image2" />
+          </div>
+          <div class="grid-item">
+            <img src="assets/PIA00049~orig.jpg" alt="Image3" />
+          </div>
+          <div class="grid-item">
+            <img src="assets/PIA00050~orig.jpg" alt="Image4" />
+          </div>
+          <div class="grid-item">
+            <img src="assets/PIA00051~orig.jpg" alt="Image5" />
+          </div>
+          <div class="grid-item">
+            <img src="assets/PIA00063~orig.jpg" alt="Image6" />
+          </div>
+          <div class="grid-item">
+            <img src="assets/PIA01363~orig.jpg" alt="Image7" />
+          </div>
+          <div class="grid-item">
+            <img src="assets/PIA01539~orig.jpg" alt="Image8" />
+          </div>
+          <div class="grid-item">
+            <img src="assets/PIA02215~orig.jpg" alt="Image9" />
+          </div>
+          <div class="grid-item">
+            <img src="assets/PIA02219~orig.jpg" alt="Image10" />
+          </div>
+          <div class="grid-item">
+            <img src="assets/PIA02223~orig.jpg" alt="Image11" />
+          </div>
+          <div class="grid-item">
+            <img src="assets/PIA07433~orig.jpg" alt="Image12" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="copyright">&copy;Kodehode 2024</div>
+      <div class="footer-section">
+        <a href="" class="fa fa-facebook"></a>
+        <a href="" class="fa fa-twitter"></a>
+        <a href="" class="fa fa-google"></a>
+        <a href="" class="fa fa-reddit"></a>
       </div>
-      <div class="grid-item">
-        <img src="assets/PIA02209~orig.jpg" alt="Image2" />
-      </div>
-      <div class="grid-item">
-        <img src="assets/PIA00049~orig.jpg" alt="Image3" />
-      </div>
-      <div class="grid-item">
-        <img src="assets/PIA00050~orig.jpg" alt="Image4" />
-      </div>
-      <div class="grid-item">
-        <img src="assets/PIA00051~orig.jpg" alt="Image5" />
-      </div>
-      <div class="grid-item">
-        <img src="assets/PIA00063~orig.jpg" alt="Image6" />
-      </div>
-      <div class="grid-item">
-        <img src="assets/PIA01363~orig.jpg" alt="Image7" />
-      </div>
-      <div class="grid-item">
-        <img src="assets/PIA01539~orig.jpg" alt="Image8" />
-      </div>
-      <div class="grid-item">
-        <img src="assets/PIA02215~orig.jpg" alt="Image9" />
-      </div>
-      <div class="grid-item">
-        <img src="assets/PIA02219~orig.jpg" alt="Image10" />
-      </div>
-      <div class="grid-item">
-        <img src="assets/PIA02223~orig.jpg" alt="Image11" />
-      </div>
-      <div class="grid-item">
-        <img src="assets/PIA07433~orig.jpg" alt="Image12" />
-      </div>
-    </section>
+    </footer>
   </body>
 </html>
