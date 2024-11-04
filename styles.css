@@ -234,12 +234,13 @@ a:hover {
 /* Footer style */
 footer {
   width: 100%;
-  height: 70px;
+  height: 60px;
   display: flex;
   align-items: center;
   color: #ababab;
   font-size: 18px;
   font-weight: 300;
+  background-color: black;
 }
 
 .footer-section {
